@@ -1,0 +1,2 @@
+C:\Users\Владимир\source\repos\KMDF Driver5\x64\Debug\KMDFDriver5.sys
+D:\AS\KMDF_Driver5\KMDF Driver5\x64\Debug\KMDFDriver5.sys

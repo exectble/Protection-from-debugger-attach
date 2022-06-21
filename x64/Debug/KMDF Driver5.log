@@ -1,0 +1,32 @@
+﻿  Building 'KMDF Driver5' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
+  Stamping x64\Debug\KMDFDriver5.inf
+  Stamping [Version] section with DriverVer=06/21/2022,19.29.34.642
+  Source.c
+D:\AS\KMDF_Driver5\KMDF Driver5\Source.c(16,1): warning C4005: PROCESS_DUP_HANDLE: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\km\wdm.h(8683): message : см. предыдущее определение "PROCESS_DUP_HANDLE"
+D:\AS\KMDF_Driver5\KMDF Driver5\Source.c(17,1): warning C4005: SYNCHRONIZE: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\km\wdm.h(6076): message : см. предыдущее определение "SYNCHRONIZE"
+D:\AS\KMDF_Driver5\KMDF Driver5\Source.c(69,70): warning C4100: pRegistryPath: неиспользованный формальный параметр
+D:\AS\KMDF_Driver5\KMDF Driver5\Source.c(127,20): warning C4047: функция: "char *" отличается по уровням косвенного обращения от "char *(*)[16]"
+D:\AS\KMDF_Driver5\KMDF Driver5\Source.c(127,9): warning C4024: strcpy: различные типы для формального и фактического параметров 1
+D:\AS\KMDF_Driver5\KMDF Driver5\Source.c(129,23): warning C4047: функция: "const char *" отличается по уровням косвенного обращения от "char *[16]"
+D:\AS\KMDF_Driver5\KMDF Driver5\Source.c(129,13): warning C4024: strcmp: различные типы для формального и фактического параметров 1
+  KMDF Driver5.vcxproj -> D:\AS\KMDF_Driver5\KMDF Driver5\x64\Debug\KMDFDriver5.sys
+  Done Adding Additional Store
+  Successfully signed: D:\AS\KMDF_Driver5\KMDF Driver5\x64\Debug\KMDFDriver5.sys
+  
+  Driver is 'Universal'.
+  .........................
+  Signability test complete.
+  
+  Errors:
+  None
+  
+  Warnings:
+  None
+  
+  Catalog generation complete.
+  D:\AS\KMDF_Driver5\KMDF Driver5\x64\Debug\KMDF Driver5\kmdfdriver5.cat
+  Done Adding Additional Store
+  Successfully signed: D:\AS\KMDF_Driver5\KMDF Driver5\x64\Debug\KMDF Driver5\kmdfdriver5.cat
+  
