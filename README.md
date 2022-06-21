@@ -11,19 +11,19 @@
 2.Запускаем от имени администратора KmdManager.exe
 
 3.Указываем путь к .sys файлу, собранному в Microsoft Visual Studio(x64-->debug-->"projectName"-->"projectName".sys
-![screen1](png/screen1.jpg)
+![screen1](img/screen1.jpg)
 
 4.Клацаем на "Register", затем на "Run". После данных действий наш драйвер активирован.
-![screen2](png/screen2.jpg)
+![screen2](img/screen2.jpg)
 
 5.Открываем WinDbg Preview и видим, что нашего процесса нет в списке.
-![screen3](png/screen3.jpg)
+![screen3](img/screen3.jpg)
 
 6.Для того, чтобы отобразить его, ставим галочку на "Show processes from all users". После мы увидим наш запущенный процесс. Для запуска процесса потребуются права Администратора.
-![screen4](png/screen4.jpg)
+![screen4](img/screen4.jpg)
 
 7.Подключаемся к нашему процессу и видим ошибку!
-![screen5](screen5.jpg)
+![screen5](img/screen5.jpg)
 
 
 ## 3.References
