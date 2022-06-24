@@ -34,3 +34,4 @@ Github с кодом драйвера из статьи выше:https://github.
 Виды прав безопасности:https://docs.microsoft.com/ru-ru/windows/win32/procthread/process-security-and-access-rights?redirectedfrom=MSDN<br/>
 ObRegistersCallback:https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/wdm/nf-wdm-obregistercallbacks<br/>
 Снятие хуков защиты:https://blog.xpnsec.com/anti-debug-openprocess/<br/>
+KmdManager:https://github.com/steward-fu/wdm/blob/master/tools/KmdManager.exe
